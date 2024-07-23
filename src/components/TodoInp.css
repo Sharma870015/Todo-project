@@ -1,0 +1,175 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+p.todo-desc1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.todo-title1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+input.for-input {
+    border-radius: 20px;
+    height: 35px;
+    width: 27.5625rem;
+    border: 1px solid #aea8a8;
+}
+input.for-input {
+    padding-left: 23px;
+    font-size: 15px;
+}
+
+.for-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.Add-btn {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 40px;
+    width: 185px;
+    font-size: 15px;
+}
+span.for-counting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.for-todos {
+    border: 1px solid #949090;
+    height: 80px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #6d6d6d;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    padding-right: 12px;
+
+}
+
+span.for-counting {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.for-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.perman-list {
+    border: 2px solid #7e7979;
+    border-radius: 5px;
+    height: 75px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 14px;
+    background: white;
+}
+
+li.for-css {
+    border: 2px solid #7e7979;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 3.5em;
+    background: white;
+    width: 36em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:575px) {
+    .center-container{
+        width: 30rem;
+    }
+    
+}
+
+@media only screen and (max-width:385px) {
+    .center-container{
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width:465px) {
+    .center-container{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width:350px) {
+    .center-container{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width:350px) {
+    .for-counting{
+        width: 20rem;
+    }
+}
+
+/* For tablets and larger */
+@media (min-width: 768px) {
+    .container {
+      display: flex;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 767px) {
+    .container {
+      display: block;
+    }
+  }
+
+  /* Portrait and Landscape */
+@media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (min-device-height: 844px) and (max-device-height: 844px) {
+    /* Styles for iPhone 13 */
+  }
+  
+  /* Portrait */
+  @media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (min-device-height: 844px) and (max-device-height: 844px) and (orientation: portrait) {
+    /* Styles for iPhone 13 in portrait mode */
+  }
+  
+  /* Landscape */
+  @media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (min-device-height: 844px) and (max-device-height: 844px) and (orientation: landscape) {
+    /* Styles for iPhone 13 in landscape mode */
+  }
+  
+  
